@@ -1,0 +1,113 @@
+body, html{
+    overflow-x: hidden;
+}
+ul{
+    background-color: cadetblue; 
+    position: fixed; 
+    z-index: 5;
+    width: 100%;
+    top: 0;
+}
+a {
+    background-color : cadetblue;
+    color: whitesmoke;
+    border-radius: 20%;
+}
+.landing-text{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.plantix-magic{
+    text-align: center;
+}
+
+#diagnose{
+    text-align: center;
+    margin-top: 3rem;
+    width: 13rem;
+    margin-right: 2rem;
+}
+
+#community, #yields {
+    text-align: center;
+    width: 13rem;
+}
+
+.sustainable{
+    position: relative;
+    text-align: right;
+    width: 13rem;
+}
+.sustainable p{
+    position: absolute;
+    top: 6rem;
+    left: 40rem;
+    width: 100%;
+}
+
+#speak{
+    text-align: center;
+    width: 50%;
+    margin-left: 10rem;
+}
+
+#testimonials{
+    text-align: center;
+}
+#testimonials img{
+    border-radius: 50%;
+    margin-top: -8rem;
+}
+#testimonials .name{
+    color: cadetblue;
+    border-bottom: 1px solid wheat;
+}
+#testimonials{
+    margin-top: 8rem;
+}
+#crops img{
+    border-radius: 50%;
+    
+}
+#crops{
+    border: none;
+    text-align: center;
+}
+#crops p, h3{
+    color: cadetblue;
+    
+}
+
+#download{
+    background-color: cadetblue;
+    text-align: center;
+    height: 6rem;
+    margin-top: 2rem;
+}
+#download a {
+    background-color: whitesmoke;
+    color: cadetblue;
+    margin-top: 1.5rem;
+}
+
+#blogs h3, h4{
+    margin-top: 2rem;
+    text-align: center;
+    color: cadetblue;
+}
+#blogs {
+    text-align: center;
+}
+#blogs .card-body{
+    width: 20rem;
+    height: 30rem;
+}
+#blogs img{
+    width: 15rem;
+}
+#blogs a{
+    background-color: cadetblue;
+    color: whitesmoke;
+
+}
