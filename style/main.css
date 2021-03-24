@@ -13,6 +13,12 @@ a {
     color: whitesmoke;
     border-radius: 20%;
 }
+a:hover {
+    background-color : white;
+    color: cadetblue;
+    border: 2px solid cadetblue;
+}
+
 .landing-text{
     text-align: center;
     margin-top: 5rem;
@@ -90,6 +96,12 @@ a {
     color: cadetblue;
     margin-top: 1.5rem;
 }
+#download a:hover {
+    background-color: cadetblue;
+    color: white;
+    margin-top: 1.5rem;
+    border: 2px solid white;
+}
 
 #blogs h3, h4{
     margin-top: 2rem;
@@ -98,6 +110,7 @@ a {
 }
 #blogs {
     text-align: center;
+    box-shadow: 2px solid;
 }
 #blogs .card-body{
     width: 20rem;
