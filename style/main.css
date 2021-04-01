@@ -1,23 +1,58 @@
 body, html{
     overflow-x: hidden;
 }
-ul{
+.nav{
     background-color: cadetblue; 
     position: fixed; 
     z-index: 5;
     width: 100%;
     top: 0;
+    margin-bottom: 5rem;
+    color: white;
+    margin-left: -1rem;
+    float: right;
 }
-a {
+.nav a{
     background-color : cadetblue;
     color: whitesmoke;
-    border-radius: 20%;
+    /* border-radius: 20%; */
 }
-a:hover {
-    background-color : white;
+.nav a:hover{
+    background-color : rgb(17, 71, 71);
     color: cadetblue;
     border: 2px solid cadetblue;
 }
+.socialmedia {
+    background-color: cadetblue;
+    width: 100%;
+    text-align: center;
+    height: 4rem;
+}
+.socialmedia p{
+    padding-top: 1.5rem;
+    
+}
+
+.footer{
+    text-align: center;
+    background-color: slategray;
+}
+
+.card {
+    box-shadow: 0 0 10px 0 rgba(241, 234, 234, 0.899);
+}
+i:hover{
+    cursor: pointer;
+}
+.card-img-top img{
+    /* height: 15rem; */
+}
+/* a {
+    
+}
+a:hover {
+    
+} */
 
 .landing-text{
     text-align: center;

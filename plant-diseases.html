@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pests & Diseases | Plantix </title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <!-- <nav class="navbar " style="background-color: cadetblue;"></nav> -->
+    <div class="container-fluid ">
+      <ul class="nav ">
+          <li class="nav-item">
+              
+              <a class="nav-link active" href="plant-diseases.html"><i><img src="images/logo-horizontal-white-en.svg" alt="">Plantix</i></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Library</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Community</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Blog</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Business</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">EN</a>
+          </li>
+      </ul>
+    </div>
+
+    <div class="container-fluid" style="background-color:white; margin-top: 4rem;">
+      <div class="container">
+        <div class="form-group row" >
+          <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="search" name="search" value = ""/>
+          </div>
+
+          <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="filter by crop" name="filterbycrop" value = ""/>
+          </div>
+
+          <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="filter by pathogen" name="filterbypathogen" value = ""/>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="container-fluid" style="background-color: rgb(231, 239, 240); padding-top: 4rem;">
+      <div class="container" >
+      <div class="row ">
+          <div class=" col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+            <div class="card ">
+                <div class="card-block ">
+                  <div class="card-img-top">
+                      <div class="embed-responsive embed-responsive-4by3">
+                        <div class="embed-responsive-item">
+                          <img src="images/tomato-late-blight-tomato-1556463774.jpg" alt="" class="img-fluid w-100" />
+                        </div>
+                      </div>
+                    </div>
+                  <div class="card-body" >
+                      <h5 class="card-text text-success">Tomato Late Blight </h5>
+                      <p><i class="float-left" ><img src="images/fungus.png" alt="" width="16" ></i><u> Fungus</u> <i class="float-right" id="tomatoLate"><img src="images/info-circle.svg" alt="" id="late-blight"></i></p>
+                      <div class="tomatoLatetext" style="display: none;">
+                        <p>Brown leaf spots - start from margin.</p>
+                        <p>White covering on the underside of leaves.</p>
+                        <p>Grey or brown wrinkled stains on fruits.</p>
+                        <p>Hardened fruit flesh spots and fruit decay.</p>
+                        <button class="btn btn-success">SHOW MORE</button>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/tomato-yellow-leaf-curl-virus-tomato-1575981863.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Tomato Yellow Leaf Curl Virus</h5>
+                          <p><i class="float-left"><img src="images/virus.png" alt="" width="16"></i><u>Virus</u> <i class="float-right" id="tomatoYellow"><img src="images/info-circle.svg" alt=""></i></p>
+                          <div class="tomatoYellowtext" style="display: none;">
+                            <p>Yellow and curled leaves.</p>
+                            <p>Stunted growth.</p>
+                            <p>Less number of fruits.</p>
+                            <button class="btn btn-success">SHOW MORE</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/leaf-miner-flies-okra-1562762708.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Leaf Minor Flies</h5>
+                          <p ><i class="float-left"><img src="images/insect.png" alt="" width="16"></i><u>Insects</u> <i class="float-right" id="leafMinor"><img src="images/info-circle.svg" alt=""></i></p>
+                          <div class="leafMinortext" style="display: none;">
+                            <p>Tunnel-like grey lines on the leaves.</p>
+                            <p>Tunnels delimited by leaf veins.</p>
+                            <p>Leaves may drop prematurely.</p>
+                            <button class="btn btn-success">SHOW MORE</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/bacterial-spot-of-tomato-tomato-1567496245.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Bacterial Spot and Speck of Tomato</h5>
+                          <p><i class="float-left"><img src="images/bacteria.png" alt="" width="16"></i><u>Bacteria</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/thrips-grape-1580217307.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Thrips</h5>
+                          <p><i class="float-left"><img src="images/insect.png" alt="" width="16"></i><u>Insects</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/early-blight-potato-1550840389.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Early Blight</h5>
+                          <p><i class="float-left"><img src="images/fungus.png" alt="" width="16"></i><u>Fungus</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/helicoverpa-caterpillar-pigeonpea-1550845438.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Helicoverpa Caterpillar</h5>
+                          <p><i class="float-left"><img src="images/insect.png" alt="" width="16"></i><u>Insect</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/tomato-spotted-wilt-virus-potato-1580130898.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Tomato Spotted Wilt Virus</h5>
+                          <p><i class="float-left"><img src="images/virus.png" alt="" width="16"></i><u>Virus</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/tobacco-caterpillar-1578925923.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Tobacco Caterpillar</h5>
+                          <p><i class="float-left"><img src="images/insect.png" alt="" width="16"></i><u>Insect</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/spider-mites-tomato-5.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Spider Mites</h5>
+                          <p><i class="float-left"><img src="images/mite.png" alt="" width="16"></i><u>Mite</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/whiteflies-sorghum-1578236138.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">WhiteFlies</h5>
+                          <p><i class="float-left"><img src="images/insect.png" alt="" width="16"></i><u>Insect</u> <i class="float-right"><img src="images.ico
+                              " alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
+              <div class="card">
+                  <div class="card-block">
+                      <div class="card-img-top">
+                          <div class="embed-responsive embed-responsive-4by3">
+                            <div class="embed-responsive-item">
+                              <img src="images/fusarium-wilt-onion-1562843172.jpg" alt="" class="img-fluid w-100" />
+                            </div>
+                          </div>
+                        </div>
+                      <div class="card-body">
+                          <h5 class="text-success">Fusarium Wilt</h5>
+                          <p><i class="float-left"><img src="images/fungus.png" alt="" width="16"></i><u>Fungus</u> <i class="float-right"><img src="images/info-circle.svg" alt=""></i></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="socialmedia" >
+    <div class="container-fluid"></div>
+      <p class="text-white">
+        <a href="">Facebook</a>   
+        <a href="">Twitter</a> 
+        <a href="">LinkedIn</a> 
+        <a href="">Instagram</a>
+      </p>
+      
+    </div>
+  </div>
+
+  <div class="footer" >
+    <div class="container-fluid"></div>
+      <p>
+        <a href=""><img src="images/google-play-badge-en.svg" alt="" width="20%"></a>
+      </p>
+      
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+    
+</body>
+</html>
